@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://semoss.org/ontologies/Relation/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SYNTHETIC_TRANSITIONS_TOPAZ_UNIQUE_ROW_ID/SYNTHETIC_TRANSITIONS_TOPAZ">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual rdf:resource="http://semoss.org/ontologies/Concept/SYNTHETIC_TRANSITIONS_TOPAZ"/>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Average_Availability/SYNTHETIC_TRANSITIONS_TOPAZ"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SYNTHETIC_TRANSITIONS_TOPAZ_UNIQUE_ROW_ID/SYNTHETIC_TRANSITIONS_TOPAZ">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Average_Availability/SYNTHETIC_TRANSITIONS_TOPAZ">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Average_Availability/SYNTHETIC_TRANSITIONS_TOPAZ"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Average_Response_Time_sec/SYNTHETIC_TRANSITIONS_TOPAZ"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SYNTHETIC_TRANSITIONS_TOPAZ_UNIQUE_ROW_ID/SYNTHETIC_TRANSITIONS_TOPAZ">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Average_Response_Time_sec/SYNTHETIC_TRANSITIONS_TOPAZ">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Average_Response_Time_sec/SYNTHETIC_TRANSITIONS_TOPAZ"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Date/SYNTHETIC_TRANSITIONS_TOPAZ"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SYNTHETIC_TRANSITIONS_TOPAZ_UNIQUE_ROW_ID/SYNTHETIC_TRANSITIONS_TOPAZ">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Date/SYNTHETIC_TRANSITIONS_TOPAZ">
+			<rdfs:Class rdf:resource="TYPE:DATE"/>
+			<AdtlDataType xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:resource="ADTLTYPE:MM((REPLACEMENT_TOKEN))dd((REPLACEMENT_TOKEN))yyyy"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Date/SYNTHETIC_TRANSITIONS_TOPAZ"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/MTF/SYNTHETIC_TRANSITIONS_TOPAZ"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SYNTHETIC_TRANSITIONS_TOPAZ_UNIQUE_ROW_ID/SYNTHETIC_TRANSITIONS_TOPAZ">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/MTF/SYNTHETIC_TRANSITIONS_TOPAZ">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/MTF/SYNTHETIC_TRANSITIONS_TOPAZ"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Transaction_Count/SYNTHETIC_TRANSITIONS_TOPAZ"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SYNTHETIC_TRANSITIONS_TOPAZ_UNIQUE_ROW_ID/SYNTHETIC_TRANSITIONS_TOPAZ">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Transaction_Count/SYNTHETIC_TRANSITIONS_TOPAZ">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Transaction_Count/SYNTHETIC_TRANSITIONS_TOPAZ"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Transaction_Name/SYNTHETIC_TRANSITIONS_TOPAZ"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SYNTHETIC_TRANSITIONS_TOPAZ_UNIQUE_ROW_ID/SYNTHETIC_TRANSITIONS_TOPAZ">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Transaction_Name/SYNTHETIC_TRANSITIONS_TOPAZ">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Transaction_Name/SYNTHETIC_TRANSITIONS_TOPAZ"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_FULL_TRENDS_UNIQUE_ROW_ID/PNW_FULL_TRENDS">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual rdf:resource="http://semoss.org/ontologies/Concept/PNW_FULL_TRENDS"/>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Date/PNW_FULL_TRENDS"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_FULL_TRENDS_UNIQUE_ROW_ID/PNW_FULL_TRENDS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Date/PNW_FULL_TRENDS">
+			<rdfs:Class rdf:resource="TYPE:DATE"/>
+			<AdtlDataType xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:resource="ADTLTYPE:MM((REPLACEMENT_TOKEN))dd((REPLACEMENT_TOKEN))yyyy"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Date/PNW_FULL_TRENDS"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Measure/PNW_FULL_TRENDS"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_FULL_TRENDS_UNIQUE_ROW_ID/PNW_FULL_TRENDS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Measure/PNW_FULL_TRENDS">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Measure/PNW_FULL_TRENDS"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Site/PNW_FULL_TRENDS"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_FULL_TRENDS_UNIQUE_ROW_ID/PNW_FULL_TRENDS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Site/PNW_FULL_TRENDS">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Site/PNW_FULL_TRENDS"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Source/PNW_FULL_TRENDS"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_FULL_TRENDS_UNIQUE_ROW_ID/PNW_FULL_TRENDS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Source/PNW_FULL_TRENDS">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Source/PNW_FULL_TRENDS"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Title/PNW_FULL_TRENDS"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_FULL_TRENDS_UNIQUE_ROW_ID/PNW_FULL_TRENDS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Title/PNW_FULL_TRENDS">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Title/PNW_FULL_TRENDS"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Value/PNW_FULL_TRENDS"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_FULL_TRENDS_UNIQUE_ROW_ID/PNW_FULL_TRENDS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Value/PNW_FULL_TRENDS">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Value/PNW_FULL_TRENDS"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX_UNIQUE_ROW_ID/PNW_REMEDY_TIX">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual rdf:resource="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX"/>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Days/PNW_REMEDY_TIX"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX_UNIQUE_ROW_ID/PNW_REMEDY_TIX">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Days/PNW_REMEDY_TIX">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Days/PNW_REMEDY_TIX"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Days_to_Resolution/PNW_REMEDY_TIX"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX_UNIQUE_ROW_ID/PNW_REMEDY_TIX">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Days_to_Resolution/PNW_REMEDY_TIX">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Days_to_Resolution/PNW_REMEDY_TIX"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Impact/PNW_REMEDY_TIX"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX_UNIQUE_ROW_ID/PNW_REMEDY_TIX">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Impact/PNW_REMEDY_TIX">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Impact/PNW_REMEDY_TIX"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Incident_ID/PNW_REMEDY_TIX"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX_UNIQUE_ROW_ID/PNW_REMEDY_TIX">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Incident_ID/PNW_REMEDY_TIX">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Incident_ID/PNW_REMEDY_TIX"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Incident_Last_Resolved_Date/PNW_REMEDY_TIX"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX_UNIQUE_ROW_ID/PNW_REMEDY_TIX">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Incident_Last_Resolved_Date/PNW_REMEDY_TIX">
+			<rdfs:Class rdf:resource="TYPE:TIMESTAMP"/>
+			<AdtlDataType xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:resource="ADTLTYPE:M((REPLACEMENT_TOKEN))d((REPLACEMENT_TOKEN))yyyy((SPACE))H:mm"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Incident_Last_Resolved_Date/PNW_REMEDY_TIX"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Incident_Service_Type/PNW_REMEDY_TIX"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX_UNIQUE_ROW_ID/PNW_REMEDY_TIX">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Incident_Service_Type/PNW_REMEDY_TIX">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Incident_Service_Type/PNW_REMEDY_TIX"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Last_Modified_Date/PNW_REMEDY_TIX"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX_UNIQUE_ROW_ID/PNW_REMEDY_TIX">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Last_Modified_Date/PNW_REMEDY_TIX">
+			<rdfs:Class rdf:resource="TYPE:TIMESTAMP"/>
+			<AdtlDataType xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:resource="ADTLTYPE:M((REPLACEMENT_TOKEN))d((REPLACEMENT_TOKEN))yyyy((SPACE))H:mm"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Last_Modified_Date/PNW_REMEDY_TIX"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Priority/PNW_REMEDY_TIX"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX_UNIQUE_ROW_ID/PNW_REMEDY_TIX">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Priority/PNW_REMEDY_TIX">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Priority/PNW_REMEDY_TIX"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Site/PNW_REMEDY_TIX"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX_UNIQUE_ROW_ID/PNW_REMEDY_TIX">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Site/PNW_REMEDY_TIX">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Site/PNW_REMEDY_TIX"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Site_Group/PNW_REMEDY_TIX"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX_UNIQUE_ROW_ID/PNW_REMEDY_TIX">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Site_Group/PNW_REMEDY_TIX">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Site_Group/PNW_REMEDY_TIX"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Status/PNW_REMEDY_TIX"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX_UNIQUE_ROW_ID/PNW_REMEDY_TIX">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Status/PNW_REMEDY_TIX">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Status/PNW_REMEDY_TIX"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Submit_Date/PNW_REMEDY_TIX"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX_UNIQUE_ROW_ID/PNW_REMEDY_TIX">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Submit_Date/PNW_REMEDY_TIX">
+			<rdfs:Class rdf:resource="TYPE:TIMESTAMP"/>
+			<AdtlDataType xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:resource="ADTLTYPE:M((REPLACEMENT_TOKEN))d((REPLACEMENT_TOKEN))yyyy((SPACE))H:mm"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Submit_Date/PNW_REMEDY_TIX"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Urgency/PNW_REMEDY_TIX"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX_UNIQUE_ROW_ID/PNW_REMEDY_TIX">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Urgency/PNW_REMEDY_TIX">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Urgency/PNW_REMEDY_TIX"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2019:02:08 10:02:40</TIME>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SYNTHETIC_TRANSITIONS_TOPAZ_UNIQUE_ROW_ID/SYNTHETIC_TRANSITIONS_TOPAZ">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">36</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Average_Availability/SYNTHETIC_TRANSITIONS_TOPAZ">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">36</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Average_Response_Time_sec/SYNTHETIC_TRANSITIONS_TOPAZ">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">28</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Date/SYNTHETIC_TRANSITIONS_TOPAZ">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">3</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/MTF/SYNTHETIC_TRANSITIONS_TOPAZ">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">4</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Transaction_Count/SYNTHETIC_TRANSITIONS_TOPAZ">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">29</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Transaction_Name/SYNTHETIC_TRANSITIONS_TOPAZ">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">3</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_FULL_TRENDS_UNIQUE_ROW_ID/PNW_FULL_TRENDS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">28880</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Date/PNW_FULL_TRENDS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">380</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Measure/PNW_FULL_TRENDS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Site/PNW_FULL_TRENDS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">4</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Source/PNW_FULL_TRENDS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Title/PNW_FULL_TRENDS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">19</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Value/PNW_FULL_TRENDS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2423</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_REMEDY_TIX_UNIQUE_ROW_ID/PNW_REMEDY_TIX">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">439</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Days/PNW_REMEDY_TIX">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">23</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Days_to_Resolution/PNW_REMEDY_TIX">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">160</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Impact/PNW_REMEDY_TIX">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">3</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Incident_ID/PNW_REMEDY_TIX">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">427</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Incident_Last_Resolved_Date/PNW_REMEDY_TIX">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">253</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Incident_Service_Type/PNW_REMEDY_TIX">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Last_Modified_Date/PNW_REMEDY_TIX">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">325</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Priority/PNW_REMEDY_TIX">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">4</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Site/PNW_REMEDY_TIX">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">20</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Site_Group/PNW_REMEDY_TIX">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">6</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Status/PNW_REMEDY_TIX">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">6</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Submit_Date/PNW_REMEDY_TIX">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">399</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Urgency/PNW_REMEDY_TIX">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">4</UNIQUE>
+</rdf:Description>
+
+</rdf:RDF>
